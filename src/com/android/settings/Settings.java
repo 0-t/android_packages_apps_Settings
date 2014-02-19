@@ -100,10 +100,6 @@ import com.android.settings.profiles.AppGroupConfig;
 import com.android.settings.profiles.ProfileConfig;
 import com.android.settings.profiles.ProfileEnabler;
 import com.android.settings.profiles.ProfilesSettings;
-import com.android.settings.slim.BatteryIconStyle;
-import com.android.settings.slim.blacklist.BlacklistSettings;
-import com.android.settings.slim.DisplayRotation;
-import com.android.settings.slim.QuietHours;
 import com.android.settings.slim.themes.ThemeEnabler;
 import com.android.settings.tts.TextToSpeechSettings;
 import com.android.settings.users.UserSettings;
@@ -879,7 +875,7 @@ public class Settings extends PreferenceActivity
             } else if (header.id == R.id.wifi_settings
                     || header.id == R.id.bluetooth_settings
                     || header.id == R.id.profiles_settings
-                    || header.id == R.id.location_settings) {
+                    || header.id == R.id.location_settings
                     || header.id == R.id.theme_settings) {
                 return HEADER_TYPE_SWITCH;
             } else if (header.id == R.id.security_settings) {
