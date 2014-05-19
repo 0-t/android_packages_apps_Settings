@@ -72,6 +72,7 @@ import com.android.settings.applications.ManageApplications;
 import com.android.settings.applications.ProcessStatsUi;
 import com.android.settings.bluetooth.BluetoothEnabler;
 import com.android.settings.bluetooth.BluetoothSettings;
+import com.android.settings.cyanogenmod.superuser.PolicyNativeFragment;
 import com.android.settings.deviceinfo.Memory;
 import com.android.settings.deviceinfo.UsbSettings;
 import com.android.settings.fuelgauge.PowerUsageSummary;
@@ -375,7 +376,8 @@ public class Settings extends PreferenceActivity
         QuickSettingsTiles.class.getName(),
         BatteryIconStyle.class.getName(),
         DisplayRotation.class.getName(),
-        ApnSettings.class.getName()
+        ApnSettings.class.getName(),
+        PolicyNativeFragment.class.getName()
     };
 
     @Override
